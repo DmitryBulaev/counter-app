@@ -1,3 +1,10 @@
+let button = document.querySelector('button');
+
 let counter = 0;
 
-console.log(counter);
+button.addEventListener('click', function() {
+
+    counter = counter + 1;
+    
+    console.log(counter);
+});
