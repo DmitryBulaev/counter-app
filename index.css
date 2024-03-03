@@ -3,6 +3,12 @@ body {
     font-weight: 700;
 }
 
+button {
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 .container {
     margin: 0 auto;
     padding: 50px 40px 50px 40px;
