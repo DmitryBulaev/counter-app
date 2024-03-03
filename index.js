@@ -1,4 +1,4 @@
-let button = document.querySelector('button');
+let button = document.querySelector('.addition');
 let counterText = document.querySelector('.counter');
 let counter = 0;
 
@@ -9,13 +9,12 @@ button.addEventListener('click', function() {
     counterText.innerText = counter;
 });
 
-// let button = document.querySelector('.');
-// let counterText = document.querySelector('.counter');
-// let counter = 0;
+let buttonReset = document.querySelector('.reset');
+let resetText = document.querySelector('.counter');
 
-// button.addEventListener('click', function() {
+buttonReset.addEventListener('click', function() {
 
-//     counter = counter + 1;
+    counter = 0;
     
-//     counterText.innerText = counter;
-// });
+    resetText.innerText = counter;
+});
