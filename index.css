@@ -42,7 +42,8 @@ button {
     gap: 50px;
 }
 
-.addition {
+.counter-addButton,
+.counter-resetButton {
     background-color: #4191FF;
     border-radius: 20px;
     height: 100px;
@@ -50,7 +51,8 @@ button {
     border: none;
 }
 
-.addition_text {
+.counter-addButton_text,
+.counter-resetButton_text {
     margin: 0 auto;
     font-size: 40px;
     line-height: 44px;
@@ -58,18 +60,7 @@ button {
     color: white;
 }
 
-.reset {
+.counter-addButton {
     background-color: #D45366;
-    border-radius: 20px;
-    height: 100px;
-    width: 500px;
-    border: none;
 }
 
-.reset_text {
-    margin: 0 auto;
-    font-size: 40px;
-    line-height: 44px;
-    text-align: center;
-    color: white;
-}
