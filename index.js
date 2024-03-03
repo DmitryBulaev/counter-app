@@ -13,9 +13,9 @@ button.addEventListener('click', function() {
 // let counterText = document.querySelector('.counter');
 // let counter = 0;
 
-button.addEventListener('click', function() {
+// button.addEventListener('click', function() {
 
-    counter = counter + 1;
+//     counter = counter + 1;
     
-    counterText.innerText = counter;
-});
+//     counterText.innerText = counter;
+// });
