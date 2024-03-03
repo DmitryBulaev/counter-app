@@ -1,3 +1,7 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
 .container {
     margin: 0 auto;
     padding: 50px 40px 50px 40px;
@@ -19,7 +23,7 @@
 }
 
 .counter {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
