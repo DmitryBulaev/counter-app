@@ -1,5 +1,6 @@
 body {
     font-family: 'Manrope', sans-serif;
+    font-weight: 700;
 }
 
 .container {
@@ -40,7 +41,7 @@ body {
     border-radius: 20px;
     height: 100px;
     width: 500px;
-    border: 0;
+    border: none;
 }
 
 .addition_text {
@@ -56,7 +57,7 @@ body {
     border-radius: 20px;
     height: 100px;
     width: 500px;
-    border: 0;
+    border: none;
 }
 
 .reset_text {
