@@ -5,8 +5,6 @@ body {
 
 button {
   font-family: inherit;
-  font-weight: 700;
-  cursor: pointer;
 }
 
 .container {
@@ -16,25 +14,7 @@ button {
   width: 100%;
 }
 
-.title-wrapper {
-  margin-bottom: 50px;
-}
-
-.title {
-  font-size: 30px;
-  text-align: center;
-}
-
-.counter-wrapper {
-  margin-bottom: 30px;
-}
-
 .counter {
-  font-size: 50px;
-  text-align: center;
-}
-
-.button-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,29 +22,34 @@ button {
   gap: 36px;
 }
 
-.counter-addButton,
-.counter-resetButton {
+.counter__title {
+  font-size: 37px;
+  text-align: center;
+}
+
+.counter__value {
+  font-size: 50px;
+}
+
+.counter__addButton,
+.counter__resetButton {
   background-color: #4191ff;
   border-radius: 20px;
   height: 100px;
   width: 500px;
   border: none;
-}
-
-.counter-addButton:hover,
-.counter-resetButton:hover {
-  opacity: 0.6;
-}
-
-.counter-addButton_text,
-.counter-resetButton_text {
-  margin: 0 auto;
   font-size: 40px;
   line-height: 44px;
+  font-weight: 700;
   text-align: center;
   color: white;
 }
 
-.counter-resetButton {
+.counter__addButton:hover,
+.counter__resetButton:hover {
+  opacity: 0.6;
+}
+
+.counter__resetButton {
   background-color: #d45366;
 }
