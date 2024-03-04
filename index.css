@@ -1,71 +1,70 @@
 body {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
 }
 
 button {
-    font-family: inherit;
-    font-weight: 700;
-    cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .container {
-    margin: 0 auto;
-    padding: 50px 40px 50px 40px;
-    height: 100%;
-    width: 100%;
+  margin: 0 auto;
+  padding: 50px 40px 50px 40px;
+  height: 100%;
+  width: 100%;
 }
 
 .title-wrapper {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .title {
-    font-size: 30px;
-    text-align: center;
+  font-size: 30px;
+  text-align: center;
 }
 
 .counter-wrapper {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .counter {
-    font-size: 50px;
-    text-align: center;
+  font-size: 50px;
+  text-align: center;
 }
 
 .button-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
 }
 
 .counter-addButton,
 .counter-resetButton {
-    background-color: #4191FF;
-    border-radius: 20px;
-    height: 100px;
-    width: 500px;
-    border: none;
+  background-color: #4191ff;
+  border-radius: 20px;
+  height: 100px;
+  width: 500px;
+  border: none;
 }
 
 .counter-addButton:hover,
 .counter-resetButton:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .counter-addButton_text,
 .counter-resetButton_text {
-    margin: 0 auto;
-    font-size: 40px;
-    line-height: 44px;
-    text-align: center;
-    color: white;
+  margin: 0 auto;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: white;
 }
 
-.counter-addButton {
-    background-color: #D45366;
+.counter-resetButton {
+  background-color: #d45366;
 }
-
