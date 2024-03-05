@@ -1,18 +1,18 @@
-let button = document.querySelector(".counter-addButton");
-let counterText = document.querySelector(".counter");
-let counter = 0;
+const counterElement = document.querySelector('[data-find="counterValue"]');
+const addApproachButton  = document.getElementById("addApproachButton");
+const resetButton = document.getElementById("resetButton");
 
-button.addEventListener("click", function () {
-  counter = counter + 1;
+const COUNTER_INITIAL_VALUE = 0;
 
-  counterText.innerText = counter;
+let counter = COUNTER_INITIAL_VALUE;
+counterElement.innerText = counter;
+
+addApproachButton.addEventListener("click", function () {
+  counter = counter + parseInt(addApproachButton.dataset.approach);
+  counterElement.innerText = counter;
 });
 
-let buttonReset = document.querySelector(".counter-resetButton");
-let resetText = document.querySelector(".counter");
-
-buttonReset.addEventListener("click", function () {
-  counter = 0;
-
-  resetText.innerText = counter;
+resetButton.addEventListener("click", function () {
+  counter = COUNTER_INITIAL_VALUE;
+  counterElement.innerText = counter;
 });
