@@ -1,55 +1,46 @@
 body {
   font-family: "Manrope", sans-serif;
+  width: 100%;
   font-weight: 700;
 }
 
 button {
+  cursor: pointer;
   font-family: inherit;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 50px 40px 50px 40px;
-  height: 100%;
-  width: 100%;
-}
-
 .counter {
+  margin: auto;
+  width: 700px;
+  padding: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 36px;
-}
-
-.counter__title {
-  font-size: 37px;
-  text-align: center;
+  gap: 40px;
 }
 
 .counter__value {
-  font-size: 50px;
-}
-
-.counter__addButton,
-.counter__resetButton {
-  background-color: #4191ff;
-  border-radius: 20px;
-  height: 100px;
-  width: 500px;
-  border: none;
-  font-size: 40px;
-  line-height: 44px;
-  font-weight: 700;
   text-align: center;
-  color: white;
+  font-size: 52px;
+  line-height: 44px;
 }
 
-.counter__addButton:hover,
+.counter__addSetButton,
+.counter__resetButton {
+  width: 500px;
+  height: 100px;
+  color: #ffffff;
+  background: #4191ff;
+  border-radius: 20px;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.counter__addSetButton:hover,
 .counter__resetButton:hover {
   opacity: 0.6;
 }
 
 .counter__resetButton {
-  background-color: #d45366;
+  background: #d45366;
 }
